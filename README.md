@@ -1,1 +1,1 @@
-# SI_2024_lab1_233295
+Dragan Buchkovski 233295
