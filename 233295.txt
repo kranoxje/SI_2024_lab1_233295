@@ -1,0 +1,63 @@
+
+1. `echo "# SI_2024_lab1_233295" >> README.md`
+2. `git init`
+3. `git add README.md`
+4. `git commit -m "first commit"`
+5. `git branch -M master`
+6. `git remote add origin https://github.com/kranoxje/SI_2024_lab1_233295.git`
+7. `git config --global user.email "draganbuckovski@gmail.com"`
+8. `git config --global user.name "kranoxje"`
+9. `git commit -m "first commit"`
+10. `git remote -v`
+11. `git init`
+12. `nano readme.md`
+13. `git add readme.md`
+14. `git commit -m "Initial commit"`
+15. `git add README.md`
+16. `nano README.md`
+17. `git add README.md`
+18. `git commit -m "Initial commit"`
+19. `git rev-parse --show-toplevel`
+20. `git add SILab1Main.java`
+21. `git add SILab1_1.java`
+22. `git add SILab1_2.java`
+23. `git commit -m "Add starter code"`
+24. `git push --all`
+25. `git push --all`
+26. `git branch`
+27. `git branch bug1`
+28. `git checkout bug1`
+29. `git add SILab1_1.java`
+30. `git commit -m "Fix wrong condition in makeBigStringFrom."`
+31. `git log`
+32. `git checkout master`
+33. `git branch bug2`
+34. `git checkout bug2`
+35. `git add SILab1_2.java`
+36. `git checkout bug1`
+37. `git rebase -i`
+38. `git rebase -i bug1`
+39. `git rebase --abort`
+40. `git rebase bug1`
+41. `git commit --amend -m "New commit message"`
+42. `git commit --amend -m "Fix wrong condition in filterOddLengthStrings."`
+43. `git log`
+44. `git checkout bug2`
+45. `git add SILab1Main.java`
+46. `git add SILab1Main.java`
+47. `git commit -m "Call method makeBigStringFrom in main class."`
+48. `git pull --all`
+49. `git pull _-all`
+50. `git pull --all`
+51. `git pull origin master master`
+52. `git pull origin master`
+53. `git checkout master`
+54. `git checkout bug2`
+55. `git rebase`
+56. `git rebase master`
+
+
+
+20. Ne se sluchuva konflikt so spojuvanje  na bug1 so master se spojuvaat so  fast  forward strategija
+23.se slucuva  konflikt, so recursive merge i so rebase se  poprava konfliktot
+25.se slucuva  konflikt,so rebase se resava konflikt,so recursive merge se  spojuva
